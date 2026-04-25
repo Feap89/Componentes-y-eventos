@@ -168,8 +168,7 @@ body {
   background-color: #fdfdfd;
 }
 
-/* NavBar */
-nav {
+.navbar {
   background-color: #b22222;
   padding: 1rem;
   display: flex;
@@ -177,7 +176,7 @@ nav {
   gap: 2rem; /* espacio entre enlaces */
 }
 
-nav a {
+.navbar a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -185,7 +184,7 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover {
+.navbar a:hover {
   color: #ffd700; /* dorado al pasar el mouse */
 }
 
