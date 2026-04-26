@@ -1,8 +1,8 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import Menu from "./pages/Menu";
+import Home from "../pages/Home";
+import LoginPage from "../pages/LoginPage";
+import RegisterPage from "../pages/RegisterPage";
+import Menu from "../pages/Menu";
 
 function App() {
   return (

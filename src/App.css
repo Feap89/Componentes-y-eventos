@@ -218,4 +218,25 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+
+  /* Menu */
+.menu {
+  display: flex;              /* coloca las imágenes en fila */
+  justify-content: center;    /* centra el grupo */
+  gap: 2rem;                  /* espacio entre imágenes */
+  margin-top: 2rem;
+}
+
+.menu img {
+  width: 250px;               /* tamaño considerable */
+  height: auto;               /* mantiene proporción */
+  border-radius: 8px;         /* esquinas redondeadas */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* sombra ligera */
+  transition: transform 0.3s;
+}
+
+.menu img:hover {
+  transform: scale(1.05);     /* efecto zoom al pasar el mouse */
+}
+
 }
